@@ -23,6 +23,10 @@ namespace AsyncAwait
             // Muestro el mensaje de finalizacion
             Console.WriteLine("Finalizando ruta");
             Console.ReadKey();
+
+            // En un principio lo que hacemos es hacer otras tareas,
+            // y al finalizar el proceso async, este nos avisa.
+            
         }
     }
 }
